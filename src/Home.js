@@ -1,6 +1,6 @@
 const Home =()=>{
     return(
-        <p>el home</p>
+        <p>Nada que mostrar</p>
     )
 }
 export default Home

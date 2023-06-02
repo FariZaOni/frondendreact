@@ -3,7 +3,7 @@ import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from './api/axios';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import bycrypt form 'bycrypt'; //COMENTAR PARA QUE NO DE ERROR
+import bycrypt from 'bycrypt'; //COMENTAR PARA QUE NO DE ERROR
 
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
