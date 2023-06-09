@@ -14,17 +14,12 @@ html {
 
 body {
     min-height: 100vh;
-    background-color: rgb(29, 83, 136);
+    background-color: rgb(43, 72, 102);
+}
+.App{
+    margin: 20px;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  /**justify-content: center; ESTA COSA ME IMPEDIA QUE EL HEADER SE QUEDARA ARRIBA **/
-  align-items: left;
-  min-height: 100vh; 
-  
-}
 
 section {
     width: 100%;
@@ -121,7 +116,8 @@ button {
     padding: 0px;
     width: 100%;
     height: 70px;
-    
+    margin: 5px;
+    border-radius: 25px;
 }
 .boton-header{
     padding: 5px 10px;
@@ -150,10 +146,22 @@ button {
     align-items: stretch ;
     height:max-content;
     
+    
 }
 .leftsidebar{
     background-color: darkslategrey;
     width: 400px;
     height:auto;
     height: 900px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.layout{
+  display: flex;
+
+  /**justify-content: center; ESTA COSA ME IMPEDIA QUE EL HEADER SE QUEDARA ARRIBA **/
+  align-items: left;
+  min-height: 100vh; 
+  align-items: start;
+
 }
